@@ -1,0 +1,48 @@
+8Course setter methods successfully tested and working!
+8Module setter methods successfully tested and working!
+;Student, Courses and Modules objects successfully created
+!Create username function works!
+
+Student name: Nikola Banek
+Student age: 21
+ Student username: NikolaBanek21
+Student ID: 1274145
+Student DOB 11/01/2000
+Modules: [
++Module name: Mathematics Module ID: 1234, 
+-Module name: C Programming Module ID: 1235, 
+2Module name: Statistical Science Module ID: 1236]
+(Courses: [Course name: Computer Science
+3         Start Date: 2016-09-01T00:00:00.000+01:00
+3         End Date: 2020-05-12T00:00:00.000+01:00]
+
+Student name: Sean Conroy
+Student age: 22
+Student username: SeanConroy22
+Student ID: 1522313
+Student DOB 06/04/1999
+Modules: [
+0Module name: English Language Module ID: 2256, 
+3Module name: Statistical Science Module ID: 1236, 
+/Module name: Human Psychology Module ID: 2257]
+'Courses: [Course name: Arts Psychology
+3         Start Date: 2016-09-08T00:00:00.000+01:00
+3         End Date: 2020-05-25T00:00:00.000+01:00]
+
+Student name: Steve Jobs
+Student age: 34
+Student username: SteveJobs34
+Student ID: 1101101
+Student DOB 01/04/1987
+Modules: [
++Module name: Mathematics Module ID: 1234, 
+-Module name: C Programming Module ID: 1235, 
+3Module name: Statistical Science Module ID: 1236, 
+0Module name: English Language Module ID: 2256, 
+/Module name: Human Psychology Module ID: 2257]
+(Courses: [Course name: Computer Science
+3         Start Date: 2016-09-01T00:00:00.000+01:00
+O         End Date: 2020-05-12T00:00:00.000+01:00, Course name: Arts Psychology
+3         Start Date: 2016-09-08T00:00:00.000+01:00
+3         End Date: 2020-05-25T00:00:00.000+01:00]
+9Student getter methods successfully tested and working!

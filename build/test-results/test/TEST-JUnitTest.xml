@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-16T16:02:12" hostname="DESKTOP-JMRNHUQ" time="0.06">
+  <properties/>
+  <testcase name="testFunctionality" classname="JUnitTest" time="0.06"/>
+  <system-out><![CDATA[Course setter methods successfully tested and working!
+Module setter methods successfully tested and working!
+Student, Courses and Modules objects successfully created
+Create username function works!
+
+Student name: Nikola Banek
+Student age: 21
+Student username: NikolaBanek21
+Student ID: 1274145
+Student DOB 11/01/2000
+Modules: [
+Module name: Mathematics Module ID: 1234, 
+Module name: C Programming Module ID: 1235, 
+Module name: Statistical Science Module ID: 1236]
+Courses: [Course name: Computer Science
+         Start Date: 2016-09-01T00:00:00.000+01:00
+         End Date: 2020-05-12T00:00:00.000+01:00]
+
+Student name: Sean Conroy
+Student age: 22
+Student username: SeanConroy22
+Student ID: 1522313
+Student DOB 06/04/1999
+Modules: [
+Module name: English Language Module ID: 2256, 
+Module name: Statistical Science Module ID: 1236, 
+Module name: Human Psychology Module ID: 2257]
+Courses: [Course name: Arts Psychology
+         Start Date: 2016-09-08T00:00:00.000+01:00
+         End Date: 2020-05-25T00:00:00.000+01:00]
+
+Student name: Steve Jobs
+Student age: 34
+Student username: SteveJobs34
+Student ID: 1101101
+Student DOB 01/04/1987
+Modules: [
+Module name: Mathematics Module ID: 1234, 
+Module name: C Programming Module ID: 1235, 
+Module name: Statistical Science Module ID: 1236, 
+Module name: English Language Module ID: 2256, 
+Module name: Human Psychology Module ID: 2257]
+Courses: [Course name: Computer Science
+         Start Date: 2016-09-01T00:00:00.000+01:00
+         End Date: 2020-05-12T00:00:00.000+01:00, Course name: Arts Psychology
+         Start Date: 2016-09-08T00:00:00.000+01:00
+         End Date: 2020-05-25T00:00:00.000+01:00]
+Student getter methods successfully tested and working!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
