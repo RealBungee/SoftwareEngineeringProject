@@ -50,9 +50,13 @@ public class Student {
 
     @Override
     public String toString(){
-        String str = "";
-        str += "\nStudent name: " + name + "\nStudent age: " + age + "\nStudent username: " + username + "\nStudent ID: " + ID;
-        str += "\nStudent DOB " + DOB + "\nModules: " + Arrays.toString(modules) + "\nCourses: " + Arrays.toString(courses);
-        return str;
+        StringBuilder str = new StringBuilder();
+        str.append("\nStudent name: ").append(name).append("\nStudent age: ").append(age).append("\nStudent username: ").append(username).append("\nStudent ID: ").append(ID);
+        str.append("\nStudent DOB ").append(DOB).append("\nModules: ").append(Arrays.toString(modules)).append("\nCourses: ");
+        for(CourseProgram c : courses){
+            str.append(c.getCourseName());
+            str.append("\n      ");
+        }
+        return str.toString();
     }
 }

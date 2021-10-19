@@ -1,6 +1,5 @@
 import org.joda.time.DateTime;
-
-import java.lang.reflect.Array;
+import java.util.Arrays;
 
 public class CourseProgram {
     private String courseName;
@@ -37,6 +36,8 @@ public class CourseProgram {
         str += "Course name: " + courseName +
                 "\n         Start Date: " + startDate +
                 "\n         End Date: " + endDate;
+        str += "\nModules: " + Arrays.toString(modules);
+        str += "\nStudents: " + Arrays.toString(studentsEnrolled);
         return str;
     }
 }

@@ -12,9 +12,8 @@
 +Module name: Mathematics Module ID: 1234, 
 -Module name: C Programming Module ID: 1235, 
 2Module name: Statistical Science Module ID: 1236]
-(Courses: [Course name: Computer Science
-3         Start Date: 2016-09-01T00:00:00.000+01:00
-3         End Date: 2020-05-12T00:00:00.000+01:00]
+Courses: Computer Science
+      
 
 Student name: Sean Conroy
 Student age: 22
@@ -25,9 +24,8 @@
 0Module name: English Language Module ID: 2256, 
 3Module name: Statistical Science Module ID: 1236, 
 /Module name: Human Psychology Module ID: 2257]
-'Courses: [Course name: Arts Psychology
-3         Start Date: 2016-09-08T00:00:00.000+01:00
-3         End Date: 2020-05-25T00:00:00.000+01:00]
+Courses: Arts Psychology
+      
 
 Student name: Steve Jobs
 Student age: 34
@@ -40,9 +38,7 @@
 3Module name: Statistical Science Module ID: 1236, 
 0Module name: English Language Module ID: 2256, 
 /Module name: Human Psychology Module ID: 2257]
-(Courses: [Course name: Computer Science
-3         Start Date: 2016-09-01T00:00:00.000+01:00
-O         End Date: 2020-05-12T00:00:00.000+01:00, Course name: Arts Psychology
-3         Start Date: 2016-09-08T00:00:00.000+01:00
-3         End Date: 2020-05-25T00:00:00.000+01:00]
+Courses: Computer Science
+      Arts Psychology
+      
 9Student getter methods successfully tested and working!
