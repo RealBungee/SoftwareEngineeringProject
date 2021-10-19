@@ -1,4 +1,4 @@
-import java.util.Date;
+import java.util.Arrays;
 
 public class Student {
 
@@ -6,12 +6,13 @@ public class Student {
     private int age, ID;
     private Module[] modules;
     private CourseProgram[] courses;
-    private Date DOB;
+    private String DOB;
 
-    public Student(String name, int age, int ID, Module[] modules, CourseProgram[] courses, Date DOB){
+    public Student(String name, int age, int ID, Module[] modules, CourseProgram[] courses, String DOB){
         this.name = name;
         this.age = age;
-        getUsername();
+        this.ID = ID;
+        createUsername();
         this.modules = modules;
         this.courses = courses;
         this.DOB = DOB;
@@ -19,21 +20,39 @@ public class Student {
 
     public Student(){}
 
-    public void getUsername(){
+    private void createUsername(){
+        String tempName = name.replace(" ", "");
         String ageString = Integer.toString(age);
-        username = name + ageString;
+        username = tempName.concat(ageString);
+
     }
 
-    public void setName(String name){ this.name = name; }
-    public void setAge(int age){ this.age = age; }
+    public void setName(String name){
+        this.name = name;
+        createUsername();
+    }
+    public void setAge(int age){
+        this.age = age;
+        createUsername();
+    }
     public void setID(int ID){ this.ID = ID; }
     public void setModules(Module[] modules){ this.modules = modules; }
     public void setCourses(CourseProgram[] courses){ this.courses = courses; }
-    public void setDOB(Date DOB){ this.DOB = DOB; }
+    public void setDOB(String DOB){ this.DOB = DOB; }
 
     public String getName(){ return name; }
     public int getAge(){ return age; }
+    public String getUsername(){ return username; }
     public int getID(){ return ID; }
+    public String getDOB(){ return DOB; }
     public Module[] getModules(){ return modules; }
     public CourseProgram[] getCourses(){ return courses; }
+
+    @Override
+    public String toString(){
+        String str = "";
+        str += "\nStudent name: " + name + "\nStudent age: " + age + "\nStudent username: " + username + "\nStudent ID: " + ID;
+        str += "\nStudent DOB " + DOB + "\nModules: " + Arrays.toString(modules) + "\nCourses: " + Arrays.toString(courses);
+        return str;
+    }
 }

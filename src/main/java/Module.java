@@ -22,4 +22,12 @@ public class Module {
     public int getID(){ return ID; }
     public Student[] getStudents(){ return students; }
     public CourseProgram[] getAssociatedCourses(){ return associatedCourses; }
+
+    @Override
+    public String toString(){
+        String str = "";
+        str += "\nModule name: " + moduleName +
+                " Module ID: " + ID;
+        return str;
+    }
 }
